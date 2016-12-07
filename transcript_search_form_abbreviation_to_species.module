@@ -1,0 +1,33 @@
+<?php
+
+function transcript_search_form_abbreviation_to_species_form_alter(&$form, &$form_state, $form_id) {
+  if(isset($form['blast_merged_transcripts'])) {
+    $form['blast_merged_transcripts']['abbreviation']['#options'] = array(
+        '_SelectAnyItem_' => 'Any',
+        'C. Florida      ' => 'Cornus        florida',
+        'H. macrophylla  ' => 'Hydrangea     macrophylla',
+        'F. grandifolia  ' => 'Fagus         grandifolia',
+        'N. sylvatica    ' => 'Nyssa         sylvatica',
+        'A. rubra        ' => 'Alnus         rubra',
+        'F. americana    ' => 'Fraxinus      americana',
+        'C. Mollissima   ' => 'Castanea      mollissima',
+        'J. nigra        ' => 'Juglans       nigra',
+        'C. mollissima   ' => 'Castanea      mollissima',
+        'A. rhombifolia  ' => 'Alnus         rhombifolia',
+        'C. sativa       ' => 'Castanea      sativa',
+        'C. crenata      ' => 'Castanea      crenata',
+        'C. dentata      ' => 'Castanea      dentata',
+        'J. regia        ' => 'Juglans       regia',
+        'F. pennsylvanica' => 'Fraxinus      pennsylvanica',
+        'A. saccharum    ' => 'Acer          saccharum',
+        'P. serotina     ' => 'Prunus        serotina',
+        'P. borbonia     ' => 'Persea        borbonia',
+        'G. triacanthos  ' => 'Gleditsia     triacanthos',
+        'L. styraciflua  ' => 'Liquidambar   styraciflua',
+        'Q. rubra        ' => 'Quercus       rubra',
+        'Q. robur        ' => 'Quercus       robur',
+        'L. tulipifera   ' => 'Liriodendron  tulipifera',
+        'Q. alba         ' => 'Quercus       alba', 
+    );
+  }
+}

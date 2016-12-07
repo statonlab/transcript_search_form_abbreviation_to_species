@@ -1,0 +1,4 @@
+name = Transcript Search Form: abbreviation to species
+description = Convert abbreviation names in dropdown in the transcript search form to species names. 
+package = Hardwood Genomic Database
+core = 7.x
