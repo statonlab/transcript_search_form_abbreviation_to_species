@@ -5,7 +5,7 @@ function transcript_search_form_abbreviation_to_species_form_alter(&$form, &$for
     $form['blast_merged_transcripts']['abbreviation']['#options'] = array(
         '_SelectAnyItem_' => 'Any',
         'rhombifolia  ' => '	Alnus         rhombifolia (Whilte alder)',
-        'rubra        ' => '	Alnus         rubra (Red alder)',
+        'A. rubra        ' => '	Alnus         rubra (Red alder)',
         'saccharum    ' => '	Acer          saccharum (Sugar maple)',
         // 'crenata      ' => '	Castanea      crenata',
         'dentata      ' => '	Castanea      dentata (American chestnut)',
@@ -27,7 +27,7 @@ function transcript_search_form_abbreviation_to_species_form_alter(&$form, &$for
         'serotina     ' => '	Prunus        serotina (Black cherry)',
         'alba         ' => '	Quercus       alba (White oak)',
         // 'robur        ' => '	Quercus       robur',
-        'rubra        ' => '	Quercus       rubra (Northern red oak)',
+        'Q. rubra        ' => '	Quercus       rubra (Northern red oak)',
     );
   }
 }
