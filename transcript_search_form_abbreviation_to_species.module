@@ -15,7 +15,7 @@ function transcript_search_form_abbreviation_to_species_form_alter(&$form, &$for
         'pennsylvanica' => '	Fraxinus      pennsylvanica (Green ash)',
         'triacanthos  ' => '	Gleditsia     triacanthos (Honeylocust)',
         // 'sativa       ' => '	Castanea      sativa',
-        'macrophylla  ' => '	Hydrangea     macrophylla (Hydrangea)',
+        //'macrophylla  ' => '	Hydrangea     macrophylla (Hydrangea)',
         // 'americana    ' => '	Fraxinus      americana',
         'nigra        ' => '	Juglans       nigra (Black walnut)',
         'regia        ' => '    Juglans       regia (English walnut)',
